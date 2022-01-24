@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "api",
+      "composeLaunchUrl": "https://localhost:44386/swagger/index.html",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "api": "StartDebugging"
+      }
+    }
+  }
+}
